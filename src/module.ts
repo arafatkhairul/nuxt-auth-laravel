@@ -18,7 +18,7 @@ const defaults: ModuleOptions = {
   csrf: {
     headerKey: 'X-XSRF-TOKEN',
     cookieKey: 'XSRF-TOKEN',
-    tokenCookieKey: 'nuxt-sanctum-auth-token'
+    tokenCookieKey: 'nuxt-auth-laravel-token'
   },
   redirects: {
     home: '/',
@@ -29,7 +29,7 @@ const defaults: ModuleOptions = {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-sanctum-auth',
+    name: 'nuxt-auth-laravel',
     configKey: 'nuxtSanctumAuth'
   },
   defaults,

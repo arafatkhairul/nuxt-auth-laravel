@@ -1,11 +1,4 @@
-import {
-  defineNuxtPlugin,
-  addRouteMiddleware,
-  useState,
-  useRuntimeConfig,
-  useCookie
-  // @ts-ignore
-} from '#app'
+import { defineNuxtPlugin, addRouteMiddleware, useState, useRuntimeConfig, useCookie } from '#app'
 import { FetchOptions, FetchRequest, ofetch } from 'ofetch'
 import { ModuleOptions, Auth, Callback, Csrf } from '../types'
 

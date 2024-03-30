@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-sanctum-auth",
-  "version": "0.4.7",
+  "name": "nuxt-auth-laravel",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -52,7 +52,7 @@
     "auth",
     "nuxt"
   ],
-  "author": "Paul Cross <me@paulcross.cz> (https://paulcross.cz/)",
+  "author": "Arafat Islam  <office.khairuk@gmail.com> (https://arafat-khairul.me/)",
   "bugs": {
     "url": "https://github.com/dystcz/nuxt-sanctum-auth/issues"
   },

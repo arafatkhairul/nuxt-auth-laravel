@@ -244,3 +244,4 @@ onMounted(async () => {
 
 - Run `npm run dev:prepare` to generate type stubs.
 - Use `npm run dev` to start playground in development mode.
+# nuxt-auth-laravel
